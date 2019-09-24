@@ -31,7 +31,7 @@ services:
       - type: bind
         source: .
         target: /home/app
-    working_dir: /home/app/src
+    working_dir: /home/app
     ports:
       - "8080:8080" 
-    command: bash -c "cd src && go mod download && cd ../ && make serve"
+    command: bash -c "go mod download && make serve"

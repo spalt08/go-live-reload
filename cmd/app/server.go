@@ -1,7 +1,7 @@
 package main
 
 import (
-	"app/examplepackage"
+	"app/pkg/examplepackage"
 	"fmt"
 )
 

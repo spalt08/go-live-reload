@@ -1,2 +1,2 @@
 cd src
-go run main.go
+go run cmd/app/server.go
