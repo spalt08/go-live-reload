@@ -9,7 +9,7 @@ kill:
 	-kill `pstree -p \`cat $(PID)\` | tr "\n" " " |sed "s/[^0-9]/ /g" |sed "s/\s\s*/ /g"` 
 	
 before:
-	@echo "STOPED" && printf '%*s\n' "40" '' | tr ' ' -
+	@echo "STOPPED" && printf '%*s\n' "40" '' | tr ' ' -
 
 start:
 	./scripts/development.sh & echo $$! > $(PID)
