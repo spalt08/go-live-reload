@@ -14,7 +14,7 @@ $ docker-compose logs --tail 100 -f production
 
 Start development enviroment 
 ```console
-$ docker-compose up dev
+$ docker-compose up development
 ```
 
 Re-building docker
